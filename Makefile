@@ -1,7 +1,7 @@
 PLIST_NAME := info.hotoku.wg-monitor
 EXE_NAME := check.bash
 PLIST_DESTPATH := $(HOME)/Library/LaunchAgents
-LOGCONF_FILE := wg-monitor.conf
+LOGCONF_FILE := $(PLIST_NAME).conf
 LOGCONF_DEST := /etc/newsyslog.d/$(LOGCONF_FILE)
 
 
