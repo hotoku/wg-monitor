@@ -9,6 +9,8 @@ packages = [{include = "wg_monitor"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jinja2-cli = "^0.8.2"
+pyobjc-framework-quartz = "^10.0"
 
 
 [build-system]
